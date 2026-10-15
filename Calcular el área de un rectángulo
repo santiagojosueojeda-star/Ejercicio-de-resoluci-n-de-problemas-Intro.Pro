@@ -1,0 +1,10 @@
+Algoritmo areaRectangulo()
+    Inicio
+          Escribir "Ingrese base del rectángulo"
+          Leer base de tipo real
+          Escribir "Ingrese altura del rectángulo"
+          Leer altura de tipo real
+          área de tipo real
+          área = base * altura
+          Escribir "El area es:", área
+    Fin
