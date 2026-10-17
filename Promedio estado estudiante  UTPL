@@ -1,0 +1,33 @@
+Algoritmo promedio_Estudiante()
+Inicio
+      #Declaracion de variables
+      Definir nota1, nota2, nota3, prom como real
+
+      #Control de ingreso de nota1
+      Escribir "Ingrese la nota 1 del primer parcial: "
+      Leer nota1
+      Mientras nota1 < 0 y > 10 
+           Escribir "Nota invalida ingrese nuevamente"
+           Leer nota1
+      Fin Mientras
+
+      #Control de ingreso de nota2
+      Escribir "Ingrese la nota 2 del primer parcial: "
+      Leer nota1
+      Mientras nota2 < 0 y > 10 
+           Escribir "Nota invalida ingrese nuevamente"
+           Leer nota1
+      Fin Mientras
+      Escribir "Ingrese la nota 1 del primer parcial: "
+      Leer nota2
+      Mientras nota3 < 0 y > 10 
+           Escribir "Nota invalida ingrese nuevamente"
+           Leer nota3
+      Fin Mientras
+      prom = (nota1*0.30)+(nota2*0.30)+(nota3*0.40)
+      Si prom >= 7 Entonces
+           Escribir "Estudiante Aprovado"
+      Sino
+           Escribir "Estudiante Reprovado"
+      Fin Si
+Fin
